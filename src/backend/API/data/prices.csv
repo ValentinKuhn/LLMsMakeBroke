@@ -1,0 +1,4 @@
+type,vendor,model,price_1m_input,price_1m_output,refresh_date
+service,OpenAi,GPT4.0,10,30,04-04-2024
+service,OpenAi,GPT3.5,0.5,1.5,04-04-2024
+service,google,Gemini 1.5,7,21,04-04-2024
