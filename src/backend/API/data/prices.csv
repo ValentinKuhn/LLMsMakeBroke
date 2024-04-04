@@ -1,0 +1,4 @@
+type,vendor,model,price_1m_input,price_1m_output
+service,OpenAi,GPT4.0,10,30
+service,OpenAi,GPT3.5,0.5,1.5
+service,google,Gemini 1.5,7,21
