@@ -7,6 +7,9 @@ services:
       dockerfile: Dockerfile
     ports:
       - 8050:8050
+    environment:
+      - api_host=llm_api
+      - api_port=5000
     networks:
       - llm_network
   llm_api:
@@ -17,5 +20,7 @@ services:
       - llm_network
     ports:
       - 5000:5000
+    environment:
+      - local_data=TRUE
 networks:
   llm_network:

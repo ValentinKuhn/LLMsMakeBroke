@@ -1,4 +1,12 @@
-type,vendor,model,price_1m_input,price_1m_output,refresh_date
-service,OpenAi,GPT4.0,10,30,04-04-2024
-service,OpenAi,GPT3.5,0.5,1.5,04-04-2024
-service,google,Gemini 1.5,7,21,04-04-2024
+type,vendor,model,model_size,price_1m_input,price_1m_output,refresh_date
+service,OpenAi,GPT 4.0,large,10,30,04-04-2024
+service,OpenAi,GPT 3.5,small,0.5,1.5,04-04-2024
+service,Google,Gemini 1.5,medium,7,21,04-04-2024
+service,Anthropic,Haiku,small,0.25,0.75,04-04-2024
+service,Anthropic,Sonnet,medium,3,15,04-04-2024
+service,Anthropic,Opus,large,15,75,04-04-2024
+service,Mistral,Mistral 7B,small,0.25,0.25,04-04-2024
+service,Mistral,Mixtral 8x7B,medium,0.7,0.7,04-04-2024
+service,Mistral,Mistral Small,small,2,6,04-04-2024
+service,Mistral,Mistral Medium,medium,2.7,8.1,04-04-2024
+service,Mistral,Mistral Large,large,8,24,04-04-2024
