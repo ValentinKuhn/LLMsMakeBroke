@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  frontend:
+    build:
+      context: src/frontend
+      dockerfile: Dockerfile
+    ports:
+      - 8050:8050
+    networks:
+      - llm_network
+  llm_api:
+    build:
+      context: src/backend/API
+      dockerfile: Dockerfile
+    networks:
+      - llm_network
+    ports:
+      - 5000:5000
+networks:
+  llm_network:
